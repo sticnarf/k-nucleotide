@@ -1,0 +1,12 @@
+[package]
+name = "k-nucleotide"
+version = "0.1.0"
+authors = ["Yilin Chen <sticnarf@gmail.com>"]
+
+[dependencies]
+rayon = "0.6.0"
+fnv = "1.0.5"
+
+[dependencies.concurrent-hashmap]
+version = "0.2.2"
+default-features = false
